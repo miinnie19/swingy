@@ -1,0 +1,41 @@
+tyrion (50HP) VS Makoa (40HP)
+Makoa hits tyrion with a Massacre Axe Attack, Causing 2 damage.
+tyrion: 48HP - Makoa: 40HP
+tyrion hits Makoa with a Dragon Punch Attack, Causing 5 damage.
+tyrion: 48HP - Makoa: 35HP
+Makoa hits tyrion with a Poison Bolts Attack, Causing 2 damage.
+tyrion: 46HP - Makoa: 35HP
+Makoa hits tyrion with a Massacre Axe Attack, Causing 2 damage.
+tyrion: 44HP - Makoa: 35HP
+Makoa hits tyrion with a Frag Granade Attack, Causing 2 damage.
+tyrion: 42HP - Makoa: 35HP
+Makoa hits tyrion with a Frag Granade Attack, Causing 2 damage.
+tyrion: 40HP - Makoa: 35HP
+tyrion hits Makoa with a Dragon Punch Attack, Causing 5 damage.
+tyrion: 40HP - Makoa: 30HP
+Makoa hits tyrion with a Blitz Upper Attack, Causing 2 damage.
+tyrion: 38HP - Makoa: 30HP
+Makoa hits tyrion with a Massacre Axe Attack, Causing 2 damage.
+tyrion: 36HP - Makoa: 30HP
+Makoa hits tyrion with a Blitz Upper Attack, Causing 2 damage.
+tyrion: 34HP - Makoa: 30HP
+tyrion hits Makoa with a Dragon Punch Attack, Causing 5 damage.
+tyrion: 34HP - Makoa: 25HP
+tyrion hits Makoa with a Impaler Arrow Attack, Causing 5 damage.
+tyrion: 34HP - Makoa: 20HP
+Makoa hits tyrion with a Massacre Axe Attack, Causing 2 damage.
+tyrion: 32HP - Makoa: 20HP
+Makoa hits tyrion with a Flash Bomb Attack, Causing 2 damage.
+tyrion: 30HP - Makoa: 20HP
+tyrion hits Makoa with a Fire Bomb Attack, Causing 5 damage.
+tyrion: 30HP - Makoa: 15HP
+tyrion hits Makoa with a Fire Bomb Attack, Causing 5 damage.
+tyrion: 30HP - Makoa: 10HP
+Makoa hits tyrion with a Dragon Punch Attack, Causing 2 damage.
+tyrion: 28HP - Makoa: 10HP
+tyrion hits Makoa with a Flash Bomb Attack, Causing 5 damage.
+tyrion: 28HP - Makoa: 5HP
+Makoa hits tyrion with a Cannon Bomb Attack, Causing 2 damage.
+tyrion: 26HP - Makoa: 5HP
+tyrion hits Makoa with a Explosive Potion Attack, Causing 5 damage.
+tyrion: 26HP - Makoa: 0HP
