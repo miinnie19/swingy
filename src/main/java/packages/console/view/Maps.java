@@ -72,7 +72,7 @@ public class Maps
             }
             else
             {
-                System.out.println(ANSI_RED + "\nInput must be numeric please select another option" + ANSI_RESET);
+                System.out.println(ANSI_RED + "\nINPUT MUST BE NUMERIC PLEASE SELECT ANOTHER OPTION" + ANSI_RESET);
                 drawMap(hero);
             }
             
@@ -95,7 +95,7 @@ public class Maps
                     {
                         if (loopCoordinates.Isequals(enemyModel.getCoordinates()))
                         {
-                            System.out.print(ANSI_PURPLE + "E " + ANSI_RESET);
+                            System.out.print("* ");//enemy
                             didShow = true;
                         }
                         else if (hero.getCoordinates().Isequals(enemyModel.getCoordinates()))
@@ -154,7 +154,7 @@ public class Maps
                 }
                 else
                 {
-                    System.out.println(ANSI_RED + "\nInput must be numeric please select another option" + ANSI_RESET);
+                    System.out.println(ANSI_RED + "\nINPUT MUST BE NUMERIC PLEASE SELECT ANOTHER OPTION" + ANSI_RESET);
                     FightOrRun(hero, enemyModel);
                 }
             } 
@@ -172,7 +172,7 @@ public class Maps
             while (gsm.nextFight())
             {
                 System.out.println(gsm.getSimulationOutput());
-                System.out.println("hero: " + hero.getHitPoints() + " enemy: " + enemy.getHitPoints());
+                System.out.println(ANSI_GREEN + "hero: " + ANSI_RESET + hero.getHitPoints() + ANSI_RED + " enemy: " + ANSI_RESET + enemy.getHitPoints());
             }
             if (!gsm.isHeroAlive(gsm.getHeroModel()) && !gsm.isHeroAlive(gsm.getEnemyModel())){
                 System.out.println("No Winner No winner...");
@@ -190,7 +190,7 @@ public class Maps
                     drawMap(hero);
                 }else{
                     mssg = gsm.getEnemyModel().getName() + " won the fight";
-                    System.out.println(ANSI_CYAN + "Fight Lost: " + ANSI_RESET +  mssg);
+                    System.out.println(ANSI_RED + "Fight Lost: " + ANSI_RESET +  mssg);
                     System.out.println(ANSI_YELLOW + ">>>>>> GAME OVER <<<<<<" + ANSI_RESET);
                     GameSimulationModel.lostGame(hero);
                     System.exit(0);
@@ -199,7 +199,7 @@ public class Maps
         }
         catch (Exception e)
         {
-            System.out.println(ANSI_RED + "Something went wrong." + ANSI_RESET);
+            System.out.println(ANSI_RED + "ooops! Something went wrong." + ANSI_RESET);
         }
     }
 

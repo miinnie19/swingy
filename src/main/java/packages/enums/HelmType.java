@@ -6,5 +6,5 @@ public enum HelmType
     great,
     spartan,
     nasal,
-    frog_mouthed;    
+    morion;
 }

@@ -5,6 +5,6 @@ public enum ArmorType
     leather,
     steel,
     curass,
-    spacesuit,
+    armet,
     jacket;
 }

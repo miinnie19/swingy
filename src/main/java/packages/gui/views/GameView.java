@@ -111,8 +111,8 @@ public class GameView extends JFrame{
                 for (EnemyModel enemyLoop: this.enemiesList) {
                     if (loopCoordinates.Isequals(enemyLoop.getCoordinates()) && enemyLoop.getHitPoints() > 0){
                         // Enemy is here, and alive
-                        JLabel lblEnemyImage = JFrameHelper.getLabelImage(enemyLoop.getIcon(), imageSize);
-                        panel.add(lblEnemyImage);
+/*                      JLabel lblEnemyImage = JFrameHelper.getLabelImage(enemyLoop.getIcon(), imageSize);
+                        panel.add(lblEnemyImage);*/
 
                         if((heroEnemyCoordinatesMatch != null && enemy != null) && enemy.getCoordinates().Isequals(enemyLoop.getCoordinates())){
                             panel.setBackground(new Color(255, 50, 50));
@@ -120,7 +120,7 @@ public class GameView extends JFrame{
                     }
                     if (loopCoordinates.Isequals(enemyLoop.getCoordinates()) && enemyLoop.getHitPoints() <= 0){
                         // Enemy is here, but dead
-                        panel.setBackground(new Color(255, 150, 150));
+                        panel.setBackground(new Color(126,87,194));
                     }
                 }
                 this.panelMain.add(panel);

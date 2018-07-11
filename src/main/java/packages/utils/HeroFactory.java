@@ -46,13 +46,13 @@ public class HeroFactory
                     switch(tempCharacterType)
                     {
                         case warrior:
-                           return (new WarriorModel(name, etype, level, xPoints, attack, defense, hitPoints, tempWeaponType, tempArmorType, tempHelmType, icon));
+                           return (new WarriorModel(name, etype, Formulas.getLevel(xPoints), xPoints, attack, defense, hitPoints, tempWeaponType, tempArmorType, tempHelmType, icon));
                         case elf:
-                       return (new ElfModel(name, etype, level, xPoints, attack, defense, hitPoints, tempWeaponType, tempArmorType, tempHelmType, icon));
+                       return (new ElfModel(name, etype, Formulas.getLevel(xPoints), xPoints, attack, defense, hitPoints, tempWeaponType, tempArmorType, tempHelmType, icon));
                         case hunter:
-                          return (new HunterModel(name, etype, level, xPoints, attack, defense, hitPoints, tempWeaponType, tempArmorType, tempHelmType, icon));
+                          return (new HunterModel(name, etype, Formulas.getLevel(xPoints), xPoints, attack, defense, hitPoints, tempWeaponType, tempArmorType, tempHelmType, icon));
                         case knight:
-                          return (new KnightModel(name, etype, level, xPoints, attack, defense, hitPoints, tempWeaponType, tempArmorType, tempHelmType, icon));
+                          return (new KnightModel(name, etype, Formulas.getLevel(xPoints), xPoints, attack, defense, hitPoints, tempWeaponType, tempArmorType, tempHelmType, icon));
                         default:
                             break;
                     }

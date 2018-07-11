@@ -6,21 +6,51 @@ import packages.enums.CharacterType;
 import packages.enums.WeaponType;
 import packages.enums.HelmType;
 
+import javax.validation.constraints.*;
+
 public class HeroModel
 {
-	private int _idCounter = 0;
-	protected static int _id = 0;
+	private static int _idCounter = 0;
+
+	@NotNull
+	protected int _id = 0;
+
+	@NotNull
+	@NotEmpty
 	protected String _name;
+
+	@NotNull
     protected CharacterType _type;
+
+	@PositiveOrZero
     protected int _level;
-	protected int _xPoints;
+
+    @PositiveOrZero
+    protected int _xPoints;
+
+    @PositiveOrZero
     protected int _attack;
+
+    @PositiveOrZero
     protected int _defense;
-    protected int _hitPoints;	
+
+    @PositiveOrZero
+    protected int _hitPoints;
+
+    @NotNull
     protected WeaponType _weapon;
+
+    @NotNull
 	protected ArmorType _armor;
-	protected HelmType _helm;	
+
+    @NotNull
+	protected HelmType _helm;
+
+    @NotNull
+	@NotEmpty
 	protected String _icon;
+
+    @NotNull
 	protected Coordinates _coordinates;	
 	
 	public HeroModel(String name, CharacterType type, int level, int xPoints, int attack, int defense, int hitPoints, WeaponType weapon, ArmorType armor, HelmType helm, String icon)
@@ -47,7 +77,7 @@ public class HeroModel
 
 	private int setNextId()
 	{
-		return (++this._idCounter);
+		return (++_idCounter);
 	}
 
 	public int getId()

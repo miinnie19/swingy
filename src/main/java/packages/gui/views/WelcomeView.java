@@ -26,7 +26,7 @@ public class WelcomeView extends JFrame{
     }
 
     private void init(){
-        this.lblWelcomeMssg = new JLabel("Welcome...", SwingConstants.LEFT);
+        this.lblWelcomeMssg = new JLabel("", SwingConstants.LEFT);
         this.btnSelectHero = new JButton("Select Hero");
         this.btnCreateNewHero = new JButton("Create Hero");
 
@@ -36,7 +36,7 @@ public class WelcomeView extends JFrame{
 
         panelMain.setLayout(null);
         panelMain.setSize(new Dimension(this.getWidth(), this.getHeight()));
-        panelTop.setBackground(new Color(228, 228, 228));
+        panelTop.setBackground(new Color(57,73,171));
         panelTop.setBounds(0, 0, this.getWidth(), 50);
         panelBottom.setBounds(0, 50, this.getWidth(), 100);
         

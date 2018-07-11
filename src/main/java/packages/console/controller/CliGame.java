@@ -12,7 +12,7 @@ public class CliGame
     {
         _hero = hero;
         Menus.printStats(_hero);
-        System.out.println(ANSI_YELLOW + "\nYOUR MISSION IS TO GET TO THE BORDERS OF THE MAP, ENJOY!!" + ANSI_RESET);
+        System.out.println(ANSI_YELLOW + "\nYOUR MISSION IS TO GET TO THE BORDERS OF THE MAP, ENJOY!! OHHH AND WATCH OUT FOR MONSTERS HEHE" + ANSI_RESET);
         Maps map = new Maps();
         map.init(_hero);
         map.drawMap(_hero);

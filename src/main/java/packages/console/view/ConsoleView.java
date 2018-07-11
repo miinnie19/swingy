@@ -126,7 +126,7 @@ public class ConsoleView
 
     public  static void existingHero() {
         boolean isMatch = false;
-        System.out.println(ANSI_CYAN+ "\nCHARACTERS TO CHOOSE FROM OR TYPE IN GUI TO SWITCH TO GUI\n" + ANSI_RESET);
+        System.out.println(ANSI_CYAN + "\nCHARACTERS TO CHOOSE FROM OR TYPE IN GUI TO SWITCH TO GUI\n" + ANSI_RESET);
         int a = heroList.size();
         if (a == 0)
         {
